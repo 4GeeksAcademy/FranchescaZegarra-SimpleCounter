@@ -10,9 +10,9 @@ function Number({number, position}) {
     let place = arr[position-1];
     
     return(
-        <div>
-            <p>{place}</p>
-        </div>
+        <>
+            <p className="text-white m-auto fontSize">{place}</p>
+        </>
     );
 };
 export default Number;
